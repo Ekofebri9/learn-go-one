@@ -1,5 +1,5 @@
 package learn_go_one
 
-func SayHello() string {
-	return "hello world"
+func SayHello(name string) string {
+	return "hello world from " + name
 }
